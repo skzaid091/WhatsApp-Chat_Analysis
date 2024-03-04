@@ -179,7 +179,16 @@ def activity_heatmap(user, df):
 
 #PREPROCESSOR.PY
 def preprocess(data):
-    pattern = '\d{1,2}/\d{1,2}/\d{2},\s\d{1,2}:\d{2}\s[APMapm]{2}\s-\s'
+    flag = 0
+    for element in data[0:30].split():
+        if element.lower() == 'am' or element.lower() == 'pm':
+            flag = 1
+
+    if flag == 1:
+        pattern = '\d{1,2}/\d{1,2}/\d{2},\s\d{1,2}:\d{2}\s[APMapm]{2}\s-\s'
+    else:
+        pattern = '\d{1,2}/\d{1,2}/\d{2},\s\d{1,2}:\d{2}\s-\s'
+        
     messages = re.split(pattern, data)
     dates = re.findall(pattern, data)
 
