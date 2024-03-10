@@ -2,6 +2,8 @@
 
 ![WhatsApp Chat Analyzer](https://img.shields.io/badge/WhatsApp_Chat-Analyzer-blue)
 
+<img align="right" width="600" src="whatsapp-screenshots/whatsappPicture1.png">
+
 Welcome to the WhatsApp Chat Analyzer! 🚀 This powerful tool allows you to gain insights, statistics, and visualizations from your exported WhatsApp chat. Whether you're curious about your messaging habits, want to identify the busiest users, or explore word clouds, this analyzer has got you covered.
 
 ## How to Use 🤔
@@ -22,8 +24,6 @@ Welcome to the WhatsApp Chat Analyzer! 🚀 This powerful tool allows you to gai
 ### Busiest Users 🚥
 
 - Identify the most active users in the group with a dynamic bar chart and detailed data.
-
-<img align="right" width="300" src="whatsapp-screenshots/whatsappPicture1.png">
 
 ### Word Clouds ☁️
 
