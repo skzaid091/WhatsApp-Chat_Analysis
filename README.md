@@ -23,6 +23,8 @@ Welcome to the WhatsApp Chat Analyzer! 🚀 This powerful tool allows you to gai
 
 - Identify the most active users in the group with a dynamic bar chart and detailed data.
 
+<img align="right" width="300" src="whatsapp-screenshots/whatsappPicture1.png">
+
 ### Word Clouds ☁️
 
 - Explore beautiful word clouds tailored to each user, bringing their most frequently used words to life.
